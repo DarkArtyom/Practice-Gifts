@@ -1,0 +1,59 @@
+/* -----footer------- */
+
+.container-footer {
+  background-color: var(--back-ground-color-secondary);
+}
+
+.footer-navi {
+  width: 1000px;
+  margin: 0 220px;
+  padding-top: 106px;
+  padding-bottom: 43px;
+  border-bottom: 1px solid #000000;
+}
+
+.footer-navi__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-navi__item {
+  margin-right: 55px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:nth-child(2) {
+    margin-right: 0;
+  }
+}
+
+.footer-navi__item:nth-child(3) {
+  margin: 0 141px;
+}
+
+.footer-logo {
+  font-family: "Homemade Apple";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2.1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-decoration: none;
+  color: var(--header-button-color);
+  &:hover {
+    color: #231f20;
+    transition: 250ms;
+  }
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 1.4;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: var(--text-color);
+  &:hover {
+    color: var(--header-button-color);
+  }
+}

@@ -1,0 +1,72 @@
+/* header */
+
+.navi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-family: "Homemade Apple";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2.1;
+  padding-top: 39px;
+  padding-bottom: 38px;
+  margin-left: 80px;
+  text-decoration: none;
+  color: #231f20;
+  &:hover {
+    color: var(--header-button-color);
+    transition: 250ms;
+  }
+}
+
+.header-list {
+  font-size: 18px;
+  line-height: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-link {
+  display: block;
+  color: var(--text-color);
+  padding-top: 39px;
+  padding-bottom: 38px;
+  &:hover {
+    color: var(--header-button-color);
+    transition: 250ms;
+  }
+}
+
+.header-item:nth-child(n + 1) {
+  margin-right: 31px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
+}
+
+.header-button {
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-right: 19px;
+  padding-bottom: 13px;
+  margin-right: 40px;
+  font-family: "Gilroy";
+  font-size: 18px;
+  line-height: 0.8;
+  text-transform: uppercase;
+  color: var(--header-button-color);
+  background-color: var(--back-ground-color);
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  &:hover {
+    background-color: var(--header-button-color);
+    border: none;
+    color: var(--back-ground-color);
+    transition: 250ms;
+  }
+}

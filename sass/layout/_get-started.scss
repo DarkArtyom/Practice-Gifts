@@ -1,0 +1,74 @@
+/* --------  get-started section-------*/
+
+.get-started .container {
+  background-color: #f7941e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  margin-left: 235px;
+}
+
+.sign-up__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.4;
+  padding-top: 81px;
+  color: var(--text-color);
+}
+
+.sign-up__text {
+  font-size: 32px;
+  line-height: 1.4;
+  padding-bottom: 69px;
+  color: var(--text-color);
+}
+
+.buttons {
+  display: flex;
+  margin-left: auto;
+  margin-right: 235px;
+}
+
+.buttons__now {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-right: 16px;
+  text-transform: uppercase;
+  border-color: #231f20;
+  color: var(--back-ground-color);
+  background: #231f20;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 1000ms ease, color 1000ms, border 1000ms;
+  &:hover {
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: transparent;
+    transform: scale(1.1);
+  }
+}
+
+.buttons__how {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 1000ms ease, color 1000ms, border 1000ms;
+  &:hover {
+    border-color: #231f20;
+    color: var(--back-ground-color);
+    background: #231f20;
+    transform: scale(1.1);
+  }
+}

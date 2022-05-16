@@ -1,0 +1,46 @@
+/* -----how-we-work-section ------*/
+
+.how-we-work-case {
+  max-width: 448px;
+  margin-top: 152px;
+  margin-left: 112px;
+}
+
+.how-we-work .container {
+  display: flex;
+  background-color: var(--back-ground-color-secondary);
+}
+
+.we-work-title {
+  margin-bottom: 18px;
+  font-size: 32px;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+.we-work-text {
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+.we-work-button {
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: var(--header-button-color);
+  border: 1px solid var(--header-button-color);
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--header-button-color);
+    border: none;
+    color: var(--back-ground-color);
+    transition: 250ms;
+  }
+}
