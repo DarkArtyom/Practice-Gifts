@@ -79,11 +79,31 @@
 }
 
 .soc_link {
-  display: flex;
-  align-items: center;
+  @extend %flex;
   justify-content: center;
   .soc_icon {
     width: 40px;
     height: 40px;
   }
+}
+
+.privacy {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.privacy__rights {
+  margin-right: 14px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.privacy__link {
+  margin-top: 72px;
+  margin-bottom: 35px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000000;
 }
