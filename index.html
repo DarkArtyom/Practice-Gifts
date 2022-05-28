@@ -14,22 +14,22 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
+    <header id="home">
       <div class="container container-navi">
-        <nav class="navi">
-          <a href="" class="header-logo">logo</a>
+        <nav class="navi scrollto">
+          <a href="#logo-footer" class="header-logo">logo</a>
           <ul class="header-list list">
             <li class="header-item">
-              <a href="#" class="header-link link">Home</a>
+              <a href="#home" class="header-link link">Home</a>
             </li>
             <li class="header-item">
-              <a href="#" class="header-link link">About Us</a>
+              <a href="#about-us" class="header-link link">About Us</a>
             </li>
             <li class="header-item">
-              <a href="#" class="header-link link">Services</a>
+              <a href="#services" class="header-link link">Services</a>
             </li>
             <li class="header-item">
-              <a href="#" class="header-link link">Blogs</a>
+              <a href="#blogs" class="header-link link">Blogs</a>
             </li>
           </ul>
           <button type="button" class="header-button">GIFT FINDER</button>
@@ -55,7 +55,7 @@
           />
         </div>
       </section>
-      <section class="how-we-work">
+      <section class="how-we-work" id="about-us">
         <div class="container">
           <img
             src="./images/Thanks.jpg"
@@ -154,7 +154,7 @@
           </ul>
         </div>
       </section>
-      <section class="get-started">
+      <section class="get-started" id="services">
         <div class="container">
           <div class="sign-up">
             <h2 class="sign-up__title">Ready to get started?</h2>
@@ -170,7 +170,7 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section id="blogs">
         <div class="container">
           <h2 class="blog-title">Our Best Blogs Ever</h2>
           <p class="blog-text">
@@ -249,19 +249,19 @@
         <div class="footer-navi">
           <ul class="footer-navi__list list">
             <li class="footer-navi__item">
-              <a href="#" class="footer-link link">Home</a>
+              <a href="#home" class="footer-link link">Home</a>
             </li>
             <li class="footer-navi__item">
-              <a href="#" class="footer-link link">About Us</a>
+              <a href="#about-us" class="footer-link link">About Us</a>
             </li>
             <li class="footer-navi__item">
-              <a href="" class="footer-logo">logo</a>
+              <a href="" class="footer-logo" id="logo-footer">logo</a>
             </li>
             <li class="footer-navi__item">
-              <a href="#" class="footer-link link">Services</a>
+              <a href="#services" class="footer-link link">Services</a>
             </li>
             <li class="footer-navi__item">
-              <a href="#" class="footer-link link">Blogs</a>
+              <a href="#blogs" class="footer-link link">Blogs</a>
             </li>
           </ul>
         </div>
@@ -310,5 +310,8 @@
         </div>
       </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
+    <script src="js/scroll.js"></script>
   </body>
 </html>
